@@ -1,0 +1,14 @@
+spring:
+  datasource:
+    url: jdbc:postgresql://127.0.0.1:5432/ist_test
+    username: ist
+    password: ist
+
+  jpa:
+    hibernate:
+      ddl-auto: validate
+    open-in-view: true
+    show-sql: false
+    properties:
+      hibernate:
+        format_sql: true
